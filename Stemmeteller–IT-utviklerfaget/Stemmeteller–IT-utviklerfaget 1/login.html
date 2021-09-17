@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valgomat</title>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="icon" type="image/png" href="Bilder/Oslo.png">
+  </head>
+      <!-- Simple CSS -->
+
+  <style>
+    button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+  </style>
+<body>
+      <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar__container">
+          <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span> <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+            <li class="navbar__item">
+              <a href="index.html" class="navbar__links">Hjem</a></li>
+            <li class="navbar__item"><a href="/" class="navbar__links">Info</a></li>
+          </ul>
+        </div>
+      </nav>
+<header>    
+      <!-- Login -->
+  <form action="Stem.html" method="post">
+   <div class="imgcontainer">
+     <img src="Bilder/Icon1.png" alt="Icon" class="avatar">
+   </div>
+
+  <div class="container">
+    <label for="uname"><b>Navn</b></label>
+    <input type="text" placeholder="Skriv in Navnet ditt" name="uname" required>
+
+    <label for="psw"><b>Passord</b></label>
+    <input type="password" placeholder="Skriv in Passorde ditt" name="psw" required>
+        
+    <button type="submit">Login</button>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">password?</a></span>
+  </div>
+
+</header>
+      <!-- Footer -->
+      <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>VG.no</h2>
+              <a href="https://www.vg.no">VG</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Venstresiden</h2>
+              <a href="https://roedt.no">Rødt</a>
+              <a href="https://www.sv.no">Sosialistisk Venstreparti</a>
+              <a href="https://www.arbeiderpartiet.no">Arbeiderpartiet</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Sentrum</h2>
+              <a href="https://www.senterpartiet.no">Senterpartiet</a>
+              <a href="https://www.mdg.no">Miljøpartiet De Grønne</a>
+              <a href="https://krf.no">Kristelig Folkeparti</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Høyresiden</h2>
+              <a href="https://www.venstre.no">Venstre</a>
+              <a href="https://hoyre.no">Høyre</a>
+              <a href="https://www.frp.no">Fremskrittspartiet</a>
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="index.html" id="footer__logo">Valgomat</a>
+            </div>
+            <p class="website__rights">© Stortingsvalg 2021</p>
+            </div>
+        </section>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>

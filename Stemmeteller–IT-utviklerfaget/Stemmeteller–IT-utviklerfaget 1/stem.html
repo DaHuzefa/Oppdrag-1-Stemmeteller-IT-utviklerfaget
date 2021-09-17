@@ -1,0 +1,107 @@
+  
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valgomat</title>
+    <link rel="stylesheet" href="stylesheet/style.css" />
+    <link rel="icon" type="image/png" href="Bilder/Oslo.png">
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="index.html" class="navbar__links">Hjem</a></li>
+          <li class="navbar__item"><a href="/" class="navbar__links">Info</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Bakgrun -->
+    <header>
+          <!-- Vote -->
+      <div class="container1">
+        <div class="button-div" id="button-1">
+          <button value="yes" onclick="recordFeedback(1, this);">Rødt</button>
+      </div>
+      <div class="button-div" id="button-2">
+          <button value="yes" onclick="recordFeedback(2, this);">Sosialistisk Venstreparti</button>
+      </div>
+      <div class="button-div" id="button-3">
+          <button value="yes" onclick="recordFeedback(3, this);">Arbeiderpartiet</button>
+      </div>
+      <div class="button-div" id="button-4">
+        <button value="yes" onclick="recordFeedback(1, this);">Senterpartiet</button>
+    </div>
+    <div class="button-div" id="button-5">
+        <button value="yes" onclick="recordFeedback(2, this);">Miljøpartiet De Grønne</button>
+    </div>
+    <div class="button-div" id="button-6">
+        <button value="yes" onclick="recordFeedback(3, this);">Kristelig Folkeparti</button>
+    </div>
+    <div class="button-div" id="button-7">
+      <button value="yes" onclick="recordFeedback(1, this);">Venstre</button>
+  </div>
+  <div class="button-div" id="button-8">
+      <button value="yes" onclick="recordFeedback(2, this);">Høyre</button>
+  </div>
+  <div class="button-div" id="button-9">
+      <button value="yes" onclick="recordFeedback(3, this);">Fremskrittspartiet</button>
+  </div>
+    </div>
+
+
+        </div>
+      </div>
+      <script src="localstorage.js"></script>
+
+
+    </header>
+    <!-- Footer -->
+    <div class="footer__container">
+        <div class="footer__links">
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>VG.no</h2>
+              <a href="https://www.vg.no">VG</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Venstresiden</h2>
+              <a href="https://roedt.no">Rødt</a>
+              <a href="https://www.sv.no">Sosialistisk Venstreparti</a>
+              <a href="https://www.arbeiderpartiet.no">Arbeiderpartiet</a>
+            </div>
+          </div>
+          <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+              <h2>Sentrum</h2>
+              <a href="https://www.senterpartiet.no">Senterpartiet</a>
+              <a href="https://www.mdg.no">Miljøpartiet De Grønne</a>
+              <a href="https://krf.no">Kristelig Folkeparti</a>
+            </div>
+            <div class="footer__link--items">
+              <h2>Høyresiden</h2>
+              <a href="https://www.venstre.no">Venstre</a>
+              <a href="https://hoyre.no">Høyre</a>
+              <a href="https://www.frp.no">Fremskrittspartiet</a>
+            </div>
+          </div>
+        </div>
+        <section class="social__media">
+          <div class="social__media--wrap">
+            <div class="footer__logo">
+              <a href="index.html" id="footer__logo">Valgomat</a>
+            </div>
+            <p class="website__rights">© Stortingsvalg 2021</p>
+            </div>
+        </section>
+      </div>
+    <script src="app.js"></script>
+</body>
+</html>
